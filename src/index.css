@@ -146,4 +146,12 @@ input:focus {
     justify-content: center;
   }
 
+  .login{
+    padding: 20px;
+  }
+  .logo{
+    padding: 0;
+  }
+  
+
 }
