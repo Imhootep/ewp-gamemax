@@ -143,7 +143,9 @@ input:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start ;
+    margin-top: 100px;
+    
   }
 
   .login{
@@ -151,6 +153,11 @@ input:focus {
   }
   .logo{
     padding: 0;
+    padding-bottom: 20px;
+  }
+  .App-controller{
+    position: absolute;
+    top: 500px;
   }
   
 
