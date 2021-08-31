@@ -51,6 +51,10 @@ body {
   
 }
 
+.App-controller2{
+  display: none;
+}
+
 /* --------------- DIV LOGIN ---------------- */
 
 .login{
@@ -156,8 +160,11 @@ input:focus {
     padding-bottom: 20px;
   }
   .App-controller{
-    position: absolute;
-    top: 500px;
+    display: none;
+  }
+  .App-controller2{
+    display: flex;
+    height: 40vmin;
   }
   
 

@@ -50,7 +50,9 @@ function App() {
         <img src={controller} className="App-controller" alt="controller" />
         </div>
           <LoginForm Login={Login} error={error}/>
-
+        <div>
+        <img src={controller} className="App-controller2" alt="controller" />
+        </div>
           </header>
       )}
       
