@@ -10,16 +10,18 @@ function LoginForm({Login, error}) {
     }
 
     return (
-      <form className="login" onSubmit={submitHandler}>
-          {(error !== "") ? (<div className="error">{error}</div>) :"" }
-         <div className="form-group">
-            <input autoFocus placeholder="Email" type="email" name="email" id="email" onChange={e=>setDetails({...details, email:e.target.value})} value={details.email} />
-        </div> 
-        <div className="form-group">
-            <input placeholder="Password" type="password" name="password" id="password" onChange={e=>setDetails({...details, password:e.target.value})} value={details.password} />
-        </div> 
-        <button className="button" type="submit">LOGIN</button>
-      </form>
+    <div className="login-container">
+        <form className="login" onSubmit={submitHandler}>
+            {(error !== "") ? (<div className="error">{error}</div>) :"" }
+            <div className="form-group">
+                <input autoFocus placeholder="Email" type="email" name="email" id="email" onChange={e=>setDetails({...details, email:e.target.value})} value={details.email} />
+            </div> 
+            <div className="form-group">
+                <input placeholder="Password" type="password" name="password" id="password" onChange={e=>setDetails({...details, password:e.target.value})} value={details.password} />
+            </div> 
+            <button className="button" type="submit">LOGIN</button>
+        </form>
+      </div>
     )
 }
 
