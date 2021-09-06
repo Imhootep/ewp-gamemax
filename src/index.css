@@ -57,9 +57,7 @@ body {
 
 /* --------------- DIV LOGIN ---------------- */
 
-.login-container{
-  
-}
+.login-container{}
 
 .login{
   display: flex;
